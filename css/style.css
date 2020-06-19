@@ -1,0 +1,467 @@
+
+@media screen and (min-width: 30em)
+.page-one-column .panel-content .wrap {
+    max-width: 1200px;!important
+}
+
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('/wp-content/plugins/morres-marketing-tool/css/font/montserrat/Montserrat-Regular.ttf'); 
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url('/wp-content/plugins/morres-marketing-tool/css/font/montserrat/Montserrat-Medium.ttf'); 
+}
+
+@font-face {
+  font-family: Mont-regular;
+  src: url('/wp-content/plugins/morres-marketing-tool/css/font/Mont Regular.otf'); 
+}
+
+@font-face {
+  font-family: Mont-Bold.otf;
+  src: url('/wp-content/plugins/morres-marketing-tool/css/font/Mont Bold.otf'); 
+}
+
+@font-face {
+  font-family: Mont-semibold.otf;
+  src: url('/wp-content/plugins/morres-marketing-tool/css/font/Mont SemiBold.otf'); 
+}
+
+
+
+#menu {
+     
+     font-family: Mont-regular, Montserrat-Medium, sans-serif;
+     font-size: 12px;
+     text-align: right!important;
+     padding: 8px;
+     border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -o-border-radius: 8px;
+     position: fixed; /* Set the navbar to fixed position */
+     margin-top: 1.8%;
+     top: 0; /* Position the navbar at the top of the page */
+     width: 65%;
+   }
+
+#menu ul {
+     margin: 0;
+     padding: 8px 0;
+     list-style: none;
+     height: auto;
+}
+
+#menu li {
+     display: inline;
+     padding: 8px;
+}
+
+#menu a {
+    color: black;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+#menu a:hover {
+     
+     color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    background-color: #ddd;
+
+}
+
+#menu li .active {
+    
+     color: black;
+          text-decoration: none!important;
+     border-style: none!important;
+
+}
+
+
+#bezoekersgrafiek{
+
+width: 90%;
+margin: 0 auto;
+
+}
+
+#linkedin_table {
+  font-family: "Montserrat-Medium", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+#linkedin_table td, #linkedin_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#linkedin_table tr:nth-child(even){background-color: #ececec;}
+
+#linkedin_table tr:hover {background-color: #ddd;}
+
+#linkedin_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #e2e97f;
+  color: black;
+
+}
+
+#likesgrafiek{
+  width: 90%;
+margin: 0 auto;
+}
+
+
+#facebook_table {
+  font-family: "Montserrat-Medium", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+#facebook_table td, #facebook_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#facebook_table tr:nth-child(even){background-color: #ececec;}
+
+#facebook_table tr:hover {background-color: #ddd;}
+
+#facebook_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #e2e97f;
+  color: black;
+}
+
+
+#mail_table {
+  font-family: "Montserrat-Medium", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+#mail_table td, #mail_table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#mail_table tr:nth-child(even){background-color: #ececec;}
+
+#mail_table tr:hover {background-color: #ddd;}
+
+#mail_table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #e2e97f;
+  color: black;
+}
+
+.titelblok {
+  text-align: center;
+  font-family: Mont-Bold;
+  font-size: 18px;
+  margin-top: 5%!important;
+  margin: 0 auto;
+}
+
+.klantentitel {
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 20%;
+  color: #3C3C3C;
+  background-color: #AECEDB;
+  padding: 5px!important;
+  padding-top: 7px!important;
+  font-family: Mont-Bold;
+}
+
+
+.klantenform{
+
+  text-align: center;
+
+}
+
+.form-control{
+
+  width: 65%;
+  background-color: #e2e97f;
+  border: none;
+  font-family: Mont-Bold;
+
+}
+
+.volgendeknop{
+ background-color: #3B45AC!important;
+ font-family: Mont-SemiBold;
+ width: 175px;
+
+}
+
+.knop{
+   text-align: center!important;
+   margin-top: 20%;
+   margin-bottom: 15%;
+}
+
+.formwrap{
+
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+
+}
+
+.form_element{
+
+    background-color: #e2e97f;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+
+}
+
+#hidediv{
+
+background-color: #f9f9dd;
+padding: 25px;
+display: block;
+}
+
+#hidediv2{
+
+background-color: #f9f9dd;
+padding: 25px;
+display: block;
+}
+
+input[type=checkbox] {
+  vertical-align: middle;
+  float: right;
+      margin-top: 4px;
+    margin-right: 10px!important;
+
+}
+
+#facebook1, #facebook2, #linkedin1, #linkedin2 {
+  font-size: 10px;
+}
+
+#openknop{
+
+   float: right;
+   margin-right: 10px;
+}
+
+.titelrapport{
+
+  width: 100%;
+  background-color: #e2e97f;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.titelonderdeel{
+    margin-left: 16px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: mont-bold;
+}
+
+
+
+
+#linkedin_feedback, #mail_feedback, #facebook_feedback, #conclusie_feedback, #actiepunten_feedback{
+
+ width: 90%;
+ margin: 0 auto;
+ font-family: Mont-semibold;
+ color:black;
+ margin-top: 25px;
+
+
+}
+
+#texttoevoegen, #texttoevoegen2, #texttoevoegen3, #texttoevoegen11, #texttoevoegen12 {
+
+ width: 90%;
+ margin: 0 auto;
+ display: block;
+
+
+
+}
+
+.example-default-value{
+  width: 100%!important;
+  height: 150px!important;
+}
+
+#formknop{
+
+    width: 15%;
+    height: 40px!important;
+    background-color: #3B45AC;
+    font-family: Mont-Bold;
+    font-size: 12px;
+}
+
+
+
+#pagebreak{
+
+  page-break-after: always;
+}
+
+
+#pdfknop{
+margin: 0 auto;
+background-color: #3B45AC!important;
+font-family: Mont-SemiBold;
+width: 175px;
+text-align: center;
+padding-top: 11px;
+padding-bottom: 10px;
+font-size: 14px;
+
+}
+
+
+.knop2{
+   text-align: center!important;
+   margin-top: 85px;
+}
+
+
+#vorige{
+margin: 0 auto;
+background-color: #838383!important;
+font-family: Mont-SemiBold;
+width: 175px;
+padding-top: 11px;
+padding-bottom: 10px;
+text-align: center;
+font-size: 14px;
+
+}
+
+.FAQ{
+    background-color: #e2e97f;
+    font-family: Mont-SemiBold;
+    color: #3C3C3C;
+    font-size: 20px;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.FAQ h2{
+    margin-top: 17px;
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+
+.info{
+    background-color: #e2e97f;
+    font-family: Mont-SemiBold;
+    color: #3C3C3C;
+    font-size: 20px;
+    float: right;
+    margin: 0 auto;
+    width: 100%;
+
+
+}
+
+.info h2{
+    margin-top: 17px;
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 20px;
+}
+
+.helpblok1{
+   width: 40%;
+   float: left;
+   padding-top: 5%;
+   
+
+}
+
+.helpblok2{
+   width: 40%;
+   float: right;
+   padding-top: 5%;
+
+   
+}
+
+#vragen{
+
+  font-family: Mont-SemiBold;
+  margin-left: 10px;
+}
+
+#vragen2{
+
+  font-family: Mont-regular;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+#vulblok{
+
+background-color: #f9f9dd;
+padding-top: 17%;
+padding-bottom: 10px;
+display: block;
+height: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
